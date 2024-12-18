@@ -1,0 +1,73 @@
+/* 全体のスタイル */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('images/image.png') no-repeat center center fixed; /* 背景画像 */
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+/* ヘッダー */
+header {
+    background-color: #007BFF; /* ヘッダーの背景色を青色に設定 */
+    padding: 0.5px;
+    color: #fff; /* ヘッダーの文字色を白に設定 */
+}
+
+h1 {
+    margin: 0;
+}
+
+/* 各セクション */
+#app-section,
+#news-section,
+#trial-section {
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* 半透明の白色 */
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    color: #000; /* セクション内の文字色を黒に設定 */
+}
+
+#app-placeholder button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#app-placeholder button:hover {
+    background-color: #0056b3;
+}
+
+/* 体験案内セクション */
+#trial-section {
+    margin-top: 30px;
+}
+
+/* フッター */
+footer {
+    background-color: #000; /* フッターの背景色を黒に設定 */
+    color: #fff; /* フッターの文字色を白に設定 */
+    padding: 10px 0;
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* お知らせセクション */
+#news-section {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* 半透明の白 */
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    color: #000; /* 文字色を黒 */
+}

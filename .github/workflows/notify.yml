@@ -1,0 +1,17 @@
+name: Notify Rails on Page Update
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Notify Rails App
+        run: |
+          curl -X POST https://googleplaystore-swimmingschool-production.up.railway.app/api/notify_update \
+          -H "Authorization: Bearer supersecret123" \
+          -H "Content-Type: application/json" \
+          -d '{"title": "お知らせが更新されました", "message": "新しいスケジュールが公開されました"}'

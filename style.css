@@ -62,12 +62,69 @@ footer {
 }
 
 /* お知らせセクション */
-#news-section {
-    margin: 20px auto;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8); /* 半透明の白 */
-    border-radius: 10px;
-    width: 80%;
-    max-width: 600px;
-    color: #000; /* 文字色を黒 */
-}
+.notice-box {
+    background: linear-gradient(to bottom, #f9f9f9, #ffffff);
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 800px;
+    margin: 40px auto;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #222;
+  }
+  
+  .notice-box h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    color: #007bff;
+  }
+  
+  .notice-box ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .notice-box li {
+    background-color: #f0f4ff;
+    border-left: 6px solid #007bff;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  .notice-box li strong {
+    display: block;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .date-label {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 2px 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-right: 8px;
+  }
+  
+  .change {
+    color: #d9534f;
+    font-weight: bold;
+  }
+  
+  .icon {
+    margin-right: 5px;
+  }
+  
+  .notice-box .note {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 30px;
+    color: #555;
+  }
+  
